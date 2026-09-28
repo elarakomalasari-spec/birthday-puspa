@@ -1,118 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#b51f4d">
-<title>Untuk Puspa ❤️</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Happy Birthday, Puspa ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap');
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#120a0d;color:#fff;font-family:'DM Sans',sans-serif}
-.hero{min-height:100svh;position:relative;display:flex;align-items:flex-end;overflow:hidden;background:#000}
-.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.15) 35%,rgba(0,0,0,.82) 100%)}
-.hero-content{position:relative;z-index:2;width:100%;padding:32px 22px 42px;text-align:center}
-.kicker{letter-spacing:.18em;text-transform:uppercase;font-size:11px;opacity:.85}
-h1{font-family:'Playfair Display',serif;font-size:clamp(46px,15vw,78px);margin:8px 0 6px}
-.subtitle{font-size:14px;opacity:.9}
-.btn{border:0;border-radius:999px;padding:13px 20px;background:#fff;color:#7d1535;font-weight:700;margin-top:22px;cursor:pointer}
-section{padding:62px 20px;max-width:760px;margin:auto}
-.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:10px;color:#f1a8bd}
-h2{font-family:'Playfair Display',serif;font-size:36px;margin:8px 0 20px}
-.letter{font-size:16px;line-height:1.9;color:#f7e9ed}
-.letter p{margin:0 0 18px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; min-height:100vh; color:#fff;
+  font-family:"DM Sans",sans-serif;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,70,100,.20),transparent 35%),
+    linear-gradient(180deg,#17060b 0%,#25070e 45%,#100308 100%);
+  overflow-x:hidden;
+}
+#fireworks{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.page{position:relative;z-index:1;max-width:760px;margin:auto;padding:18px 16px 50px}
+.card{
+  background:rgba(22,7,12,.72); border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 18px 60px rgba(0,0,0,.45); backdrop-filter:blur(10px);
+  border-radius:28px; overflow:hidden;
+}
+.hero{text-align:center;padding:28px 18px 24px}
+.hero img{
+  width:100%; max-height:620px; object-fit:cover; object-position:center;
+  border-radius:22px; display:block; margin:0 auto 22px;
+  box-shadow:0 14px 45px rgba(0,0,0,.5);
+}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;opacity:.72}
+h1,h2{font-family:"Playfair Display",serif}
+h1{font-size:clamp(2.1rem,9vw,4rem);line-height:1.05;margin:8px 0 12px}
+.subtitle{opacity:.82;margin:0 auto 22px;max-width:540px;line-height:1.65}
+.btn{
+  border:0;border-radius:999px;padding:13px 21px;cursor:pointer;
+  color:#fff;background:linear-gradient(135deg,#ff365e,#b90d32);
+  font-weight:700;box-shadow:0 8px 24px rgba(255,38,82,.28);
+}
+.section{padding:28px 20px}
+.letter{line-height:1.85;color:#f9e9ed}
+.letter p{margin:0 0 14px}
+.quote{
+  margin:18px 0;padding:18px;border-left:3px solid #ff4b6d;
+  background:rgba(255,255,255,.045);border-radius:0 16px 16px 0;
+  font-family:"Playfair Display",serif;font-size:1.15rem
+}
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.gallery figure{margin:0;overflow:hidden;border-radius:18px;background:#241318}
-.gallery img{width:100%;height:240px;object-fit:cover;display:block}
-.gallery figure:first-child{grid-column:1/-1}.gallery figure:first-child img{height:360px}
-.caption{padding:10px 12px 13px;font-size:12px;color:#dfc6ce}
-.quote{text-align:center;font-family:'Playfair Display',serif;font-size:27px;line-height:1.45;padding:30px 12px}
-.music{background:linear-gradient(135deg,#2b0e18,#140b10);border:1px solid #5a2939;border-radius:24px;padding:22px}
-audio{width:100%;margin-top:12px}
-.note{font-size:12px;color:#cdaeb9;line-height:1.6;margin-top:10px}
-.qrbox{text-align:center;background:#fff;color:#30101b;border-radius:26px;padding:25px 18px}
-#qrcode{display:flex;justify-content:center;margin:18px auto 12px}
-#qrcode img{border-radius:14px}
-.qrbox p{font-size:12px;line-height:1.5;margin:6px 0}
-footer{text-align:center;padding:45px 20px 65px;color:#b9939f;font-size:12px}
-.heart{position:fixed;right:18px;bottom:18px;width:48px;height:48px;border-radius:50%;border:1px solid #6d3144;background:rgba(30,8,15,.82);color:#ff9fbb;z-index:10;cursor:pointer}
-.fade{animation:fade 1.2s ease both}@keyframes fade{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
-@media(min-width:700px){section{padding-top:85px;padding-bottom:85px}.gallery{grid-template-columns:repeat(3,1fr)}.gallery figure:first-child{grid-column:span 2}.gallery figure:first-child img{height:420px}.gallery img{height:300px}}
+.gallery img{width:100%;height:270px;object-fit:cover;border-radius:18px}
+.music{
+  display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  padding:15px;border-radius:18px;background:rgba(255,255,255,.05)
+}
+audio{width:100%}
+.note{font-size:.82rem;opacity:.68;line-height:1.55}
+.heart{position:fixed;right:18px;bottom:18px;z-index:5;width:50px;height:50px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.18);background:rgba(90,0,20,.8);color:white;font-size:22px}
+footer{text-align:center;opacity:.55;font-size:.78rem;padding:25px 10px}
+@media(max-width:520px){.page{padding:10px 10px 40px}.hero img{max-height:560px}.gallery img{height:230px}}
 </style>
 </head>
 <body>
-<header class="hero">
-  <img src="foto-utama.png" alt="Foto romantis di pantai">
-  <div class="hero-content fade">
-    <div class="kicker">A little birthday surprise</div>
-    <h1>Happy Birthday,<br>Puspa ❤️</h1>
-    <div class="subtitle">Untuk seseorang yang ingin terus aku temui di setiap perjalanan.</div>
-    <button class="btn" onclick="document.getElementById('surat').scrollIntoView()">Buka pesannya 💌</button>
-  </div>
-</header>
+<canvas id="fireworks"></canvas>
 
-<section id="surat">
-  <div class="eyebrow">A letter for you</div>
-  <h2>Untuk Puspa</h2>
-  <div class="letter">
-    <p>Selamat ulang tahun, Puspa. ❤️</p>
-    <p>Semoga setiap langkahmu selalu membawa kamu semakin dekat dengan semua hal yang kamu impikan.</p>
-    <p>Semoga kariermu semakin lancar, segala urusanmu dimudahkan, dan semua doa serta harapanmu satu per satu bisa menjadi kenyataan.</p>
-    <p>Dan semoga, di setiap perjalanan panjang yang kita lalui, kamu tetap menjadi salah satu orang yang selalu ada di sisiku—menemani, mendukung, dan melihat perjalanan ini sampai aku berhasil menjadi seorang <strong>bilioner</strong>.</p>
-    <p>Semoga hari ini menjadi awal dari tahun yang lebih indah untukmu. Terima kasih sudah menjadi bagian dari perjalanan hidupku. ❤️</p>
-  </div>
-</section>
+<main class="page">
+  <section class="card hero">
+    <img src="foto-utama.png" alt="Foto Puspa dan kamu">
+    <div class="eyebrow">A little birthday surprise</div>
+    <h1>Happy Birthday, Puspa ❤️</h1>
+    <p class="subtitle">Untuk seseorang yang spesial dan selalu punya tempat sendiri di hati.</p>
+    <button class="btn" onclick="document.getElementById('pesan').scrollIntoView({behavior:'smooth'})">Buka pesannya 💌</button>
+  </section>
 
-<section>
-  <div class="eyebrow">Our memories</div>
-  <h2>Beberapa cerita kita</h2>
-  <div class="gallery">
-    <figure><img src="foto-berdua.jpg" alt="Foto berdua"><figcaption class="caption">Salah satu momen yang ingin selalu aku ingat.</figcaption></figure>
-    <figure><img src="foto-puspa-1.jpg" alt="Puspa"><figcaption class="caption">Kamu, dengan caramu sendiri. ❤️</figcaption></figure>
-    <figure><img src="foto-kamu-1.jpg" alt="Foto pasangan"><figcaption class="caption">Dua orang, satu perjalanan.</figcaption></figure>
-    <figure><img src="foto-puspa-2.jpg" alt="Puspa"><figcaption class="caption">Semoga senyummu selalu ada.</figcaption></figure>
-  </div>
-</section>
+  <section id="pesan" class="card section">
+    <h2>Untuk Puspa ❤️</h2>
+    <div class="letter">
+      <p>Selamat ulang tahun, Puspa. ❤️</p>
+      <p>Semoga setiap langkahmu selalu membawa kamu semakin dekat dengan semua hal yang kamu impikan.</p>
+      <p>Semoga kariermu semakin lancar, segala urusanmu dimudahkan, dan semua doa serta harapanmu satu per satu bisa menjadi kenyataan.</p>
+      <p>Dan semoga, di setiap perjalanan panjang yang kita lalui, kamu tetap menjadi salah satu orang yang selalu ada di sisiku—menemani, mendukung, dan melihat perjalanan ini sampai aku berhasil menjadi seorang bilioner. ❤️</p>
+      <p>Semoga hari ini menjadi awal dari tahun yang lebih indah untukmu. Terima kasih sudah menjadi bagian dari perjalanan hidupku. ❤️</p>
+    </div>
+    <div class="quote">“Semoga kita terus punya banyak cerita yang bisa dikenang, satu per satu.” ❤️</div>
+  </section>
 
-<section>
-  <div class="quote">“Kalau nanti perjalanan ini menjadi panjang, semoga kita masih punya banyak cerita untuk dikenang.”</div>
-</section>
+  <section class="card section">
+    <h2>Our Little Memories 📸</h2>
+    <div class="gallery">
+      <img src="foto-utama.png" alt="Kenangan bersama">
+      <img src="foto-berdua-close.jpg" alt="Foto berdua">
+    </div>
+  </section>
 
-<section>
-  <div class="eyebrow">Our song</div>
-  <h2>Satu lagu untukmu 🎵</h2>
-  <div class="music">
-    <div>Putar musik sambil membaca pesan ini.</div>
-    <audio controls preload="metadata" src="music.mp3"></audio>
-    <div class="note">Ganti file <b>music.mp3</b> di folder website dengan lagu pilihanmu.</div>
-  </div>
-</section>
+  <section class="card section">
+    <h2>Our Song 🎵</h2>
+    <div class="music">
+      <strong>Shape of My Heart</strong>
+      <audio controls preload="metadata">
+        <source src="shape-of-my-heart.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+      </audio>
+      <div class="note">
+        File musik tidak disertakan di paket ini. Setelah kamu memiliki MP3 yang sah/berizin,
+        beri nama <b>shape-of-my-heart.mp3</b> lalu taruh di folder yang sama dengan index.html.
+      </div>
+    </div>
+  </section>
 
-<section>
-  <div class="eyebrow">A little surprise</div>
-  <h2>Link yang bisa kamu simpan ❤️</h2>
-  <div class="qrbox">
-    <div id="qrcode"></div>
-    <p><strong>Scan QR ini untuk membuka halaman ulang tahun Puspa.</strong></p>
-    <p>QR akan otomatis memakai alamat website ini setelah kamu meng-upload foldernya ke hosting.</p>
-  </div>
-</section>
+  <footer>Dibuat dengan ❤️ khusus untuk Puspa</footer>
+</main>
 
-<footer>
-  Dibuat khusus untuk Puspa ❤️<br>
-  Dari seseorang yang ingin terus berjalan bersamamu.
-</footer>
+<button class="heart" onclick="burst(innerWidth/2, innerHeight/2)" aria-label="fireworks">❤️</button>
 
-<button class="heart" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Kembali ke atas">♥</button>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
-new QRCode(document.getElementById("qrcode"), {
-  text: window.location.href,
-  width: 190, height: 190,
-  colorDark: "#3b1020", colorLight: "#ffffff",
-  correctLevel: QRCode.CorrectLevel.H
-});
+const canvas=document.getElementById("fireworks"),ctx=canvas.getContext("2d");
+let W,H,particles=[];
+function resize(){W=canvas.width=innerWidth*devicePixelRatio;H=canvas.height=innerHeight*devicePixelRatio;canvas.style.width=innerWidth+"px";canvas.style.height=innerHeight+"px";ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}
+addEventListener("resize",resize); resize();
+
+function burst(x,y){
+  const count=65;
+  for(let i=0;i<count;i++){
+    const a=Math.PI*2*i/count+Math.random()*.08, s=1.5+Math.random()*4.2;
+    particles.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,life:55+Math.random()*35,r:1+Math.random()*2.1});
+  }
+}
+function loop(){
+  ctx.clearRect(0,0,innerWidth,innerHeight);
+  particles=particles.filter(p=>p.life>0);
+  for(const p of particles){
+    p.x+=p.vx;p.y+=p.vy;p.vy+=.035;p.vx*=.992;p.vy*=.992;p.life--;
+    ctx.globalAlpha=Math.min(1,p.life/30);
+    ctx.fillStyle="rgba(255,190,210,0.95)";
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();
+  }
+  ctx.globalAlpha=1;requestAnimationFrame(loop);
+}
+loop();
+
+function randomBurst(){
+  burst(80+Math.random()*(innerWidth-160),80+Math.random()*Math.min(420,innerHeight*.55));
+  setTimeout(randomBurst,1200+Math.random()*2200);
+}
+setTimeout(randomBurst,900);
 </script>
 </body>
 </html>
